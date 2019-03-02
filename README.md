@@ -1,7 +1,3 @@
-# releasesFootshop-bot
-Automated bot written in Go, which mass enters raffles on releases.footshop.com 
-
-
 # Footshop Releases Bot
 
 This is an automated script written in Go language which basically mass enters selected raffle on Footshop's Releases micro-site.
@@ -31,5 +27,5 @@ cd $HOME/releasesFootshop-bot
 * [Facebook](https://facebook.com/aezakmi34)
 
 *DISCLAIMER*
-All of your sensitive informations are stored ONLY locally on your machine.
+*All of your sensitive informations are stored ONLY locally on your machine.*
 
