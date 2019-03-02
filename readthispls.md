@@ -21,11 +21,12 @@ cd $HOME/releasesFootshop-bot
 ./footshop
 ```
 
-## Follow me for more updates
+## Me
 
 * [Twitter](https://twitter.com/brokeguysamo)
 * [Facebook](https://facebook.com/aezakmi34)
+* [Mail](mailto:admin@samuelmikula.com)
 
 *DISCLAIMER*
-*All of your sensitive informations are stored ONLY locally on your machine.*
+*Your sensitive informations are stored locally on your machine.*
 
