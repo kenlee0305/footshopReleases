@@ -37,7 +37,7 @@ Enjoy!
 *Feel free to DM me on Twitter or Discord if you need any help*.
 
 * [Twitter](https://twitter.com/washedsamo)
-* [Mail](mailto:s_mikula@icloud.com)
+* [Mail](mailto:iam@samuelmikula.com)
 
 *DISCLAIMER*
 *Your sensitive informations are stored locally on your machine.*
