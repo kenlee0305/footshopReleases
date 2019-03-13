@@ -1,22 +1,22 @@
 # Footshop Releases Bot
 
-This is an automated script written in Go language which basically mass enters selected raffle on Footshop's Releases micro-site.
+Automated raffle script for mass-entering raffles on releases.footshop.com
+If you don't have Go language installed follow [this](https://golang.org/doc/install) link.
 
-## How it works
-
-Run this script from your terminal as follows.
+## Installation
+Tested on macOS & Ubuntu 18.04 Desktop
 
 1. Clone this repo to your machine.
 ```
-git clone https://github.com/35ulae/releasesFootshop-bot
+git clone https://github.com/washedsamo/footshopReleases-raffle-bot
 ```
-2. CD to your cloned folder
+2. Navigate to your cloned repository
 ```
-cd $HOME/releasesFootshop-bot
+cd $HOME/footshopReleases-raffle-bot
 ```
-3. Edit the people.json file with your Billing infortmations and save the file (⌘+S)
+3. Edit your people.json file with your Billing details and save the file (⌘+S)
 
-3.1. Edit the footshop.go file with your SizeID and ProductID (which could be found in the product url) and save the file (⌘+S)
+3.1. Edit your footshop.go file with your selected SizeID and ProductID (which could be found in the product url) and save the file (⌘+S)
 
 4. Make the file executable by running this command
 ```
@@ -26,10 +26,17 @@ go build footshop.go
 ```
 ./footshop
 ```
+or
+```
+go run footshop.go
+```
+Enjoy!
 
-## Me
 
-* [Twitter](https://twitter.com/brokeguysamo)
+## Contact me
+*Feel free to DM me on Twitter or Discord if you need any help*.
+
+* [Twitter](https://twitter.com/washedsamo)
 * [Mail](mailto:s_mikula@icloud.com)
 
 *DISCLAIMER*
