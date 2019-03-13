@@ -16,7 +16,13 @@ cd $HOME/releasesFootshop-bot
 ```
 3. Edit the people.json file with your Billing infortmations and save the file (⌘+S)
 
-4. Run the script by typing the following command to your terminal.
+3.1. Edit the footshop.go file with your SizeID and ProductID (which could be found in the product url) and save the file (⌘+S)
+
+4. Make the file executable by running this command
+```
+go build footshop.go
+```
+5. Run the script by typing the following command to your terminal.
 ```
 ./footshop
 ```
@@ -24,8 +30,7 @@ cd $HOME/releasesFootshop-bot
 ## Me
 
 * [Twitter](https://twitter.com/brokeguysamo)
-* [Facebook](https://facebook.com/aezakmi34)
-* [Mail](mailto:admin@samuelmikula.com)
+* [Mail](mailto:s_mikula@icloud.com)
 
 *DISCLAIMER*
 *Your sensitive informations are stored locally on your machine.*
