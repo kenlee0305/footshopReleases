@@ -1,6 +1,6 @@
 # Footshop Releases Bot
 
-Automated raffle script for mass-entering raffles on releases.footshop.com.
+Automated raffle script made to easily enter raffles on releases.footshop.com
 If you don't have Go language installed follow [this](https://golang.org/doc/install) link.
 
 ## Installation
