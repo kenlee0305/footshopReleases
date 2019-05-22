@@ -8,7 +8,7 @@ Tested on macOS & Ubuntu 18.04 Desktop
 
 1. Clone this repo to your machine.
 ```
-git clone https://github.com/washedsamo/footshopReleases-raffle-bot
+git clone https://github.com/samoinsecure/footshopReleases-raffle-bot
 ```
 2. Navigate to your cloned repository
 ```
@@ -36,8 +36,8 @@ Enjoy!
 ## Contact me
 *Feel free to DM me on Twitter or Discord if you need any help*.
 
-* [Twitter](https://twitter.com/washedsamo)
-* [Mail](mailto:iam@samuelmikula.com)
+* [Twitter](https://twitter.com/samoinsecure)
+* [Mail](mailto:github@samuelmikula.com)
 
 *DISCLAIMER*
 *Your sensitive informations are stored locally on your machine.*
