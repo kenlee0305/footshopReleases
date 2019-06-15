@@ -11,12 +11,12 @@ If you don't have Go language installed follow [this](https://golang.org/doc/ins
 *Send POST to this URL: *https://api2.checkout.com/v2/tokens/card* with following header details.*
 ```
 {
-			'Accept': 'application/json, text/javascript, */*; q=0.01',
-			'Referer': 'https://js.checkout.com/frames/?v=1.0.16&publicKey=pk_76be6fbf-2cbb-4b4a-bd3a-4865039ef187&localisation=EN-GB&theme=standard',
-			'Origin': 'https://js.checkout.com',
-			'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
-			'AUTHORIZATION': 'pk_76be6fbf-2cbb-4b4a-bd3a-4865039ef187',
-			'Content-Type': 'application/json'
+	'Accept': 'application/json, text/javascript, */*; q=0.01',
+	'Referer': 'https://js.checkout.com/frames/?v=1.0.16&publicKey=pk_76be6fbf-2cbb-4b4a-bd3a-4865039ef187&localisation=EN-GB&theme=standard',
+	'Origin': 'https://js.checkout.com',
+	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+	'AUTHORIZATION': 'pk_76be6fbf-2cbb-4b4a-bd3a-4865039ef187',
+	'Content-Type': 'application/json'
 }
 ```
 *BODY part should be formatted in application/json format*
