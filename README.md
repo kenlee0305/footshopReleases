@@ -7,7 +7,7 @@ If you don't have Go language installed follow [this](https://golang.org/doc/ins
 // *THIS IS A POOR HEADLESS VERSION, IM NO LONGER SUPPORTING A DEVELOPMENT OF ANY BOT RELATED TO FOOTSHOP. HERE'S A QUICK DEMONSTRATION OF REQUESTS SO YOU CAN CODE IT YOURSELF EVEN THO ITS USELESS AS YOU AREN'T GOING TO COOK ANYTHING*
 
 
-## Post request to get a card_id_token which is needed to send a valid checkout post request.
+## Send a POST request to get a card_id_token needed to send a valid checkout post request.
 *Send POST to this URL: *https://api2.checkout.com/v2/tokens/card* with following header details.*
 ```
 {
@@ -29,7 +29,59 @@ If you don't have Go language installed follow [this](https://golang.org/doc/ins
 	"requestSource": "JS"
 }
 ```
+*Now we have a valid card_id token so we can send a POST request to get a successful raffle signup.*
 
+## Send a POST request to Footshop Releases's API to get a successful signup
+
+*Send POST to this URL: *https://releases.footshop.com/api/registrations/create/VARIANT* with following header details.*
+^Example: https://releases.footshop.com/api/registrations/create/-AXT6WoB8Bg_k2wdvyvE (Yeezy 700s Black)
+
+Variant is the ID of product you want to sign-up.
+
+Header details:
+```
+{
+    'origin': 'https://releases.footshop.com',
+    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+    'content-type': 'application/json;charset=UTF-8',
+    'accept': 'application/json, text/plain, */*',
+    'cache-control': 'no-cache',
+    'authority': 'releases.footshop.com',
+    'referer': 'https://releases.footshop.com/register/' + task['variant'] + '/Unisex/' + sizeID
+}
+```
+Body part, make sure your data is in correct format
+sizerunID is a size you're going for, cardToken is the token we got in previous step.
+```
+{
+	"id": null,
+	"sizerunId": "d7ade886-7e1f-11e9-995c-0242ac13000a",
+	"account": "New Customer",
+	"email": "your@mail.cz",
+	"phone": "+420999999999",
+	"gender": "Mr",
+	"firstName": "Samuel",
+	"lastName": "Sasasasa",
+	"birthday": "1997-01-01",
+	"deliveryAddress": {
+		"country": "CZ",
+		"state": "CZ",
+		"county": "",
+		"city": "Prague",
+		"street": "Sartoriova",
+		"houseNumber": "1488",
+		"additional": "",
+		"postalCode": "16900"
+	},
+	"consents": ["privacy-policy-101"],
+	"cardToken": "CARD_TOKEN_WE_GOT_IN_PREVIOUS_STEP",
+	"cardLast4": "XXXX"
+	
+}
+```
+
+So that's it, now you got a valid raffle signup. Back to the original Bot and it's files.
 
 ## Installation
 Tested on macOS & Ubuntu 18.04 Desktop
