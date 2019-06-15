@@ -3,7 +3,32 @@
 Automated raffle script made to easily enter raffles on releases.footshop.com
 If you don't have Go language installed follow [this](https://golang.org/doc/install) link.
 
-// THIS IS A POOR HEADLESS VERSION, IM NO LONGER SUPPORTING A DEVELOPMENT OF ANY BOT RELATED WITH FOOTSHOP. HERE'S A QUICK DEMONSTRATION OF REQUESTS SO YOU CAN CODE IT YOURSELF EVEN THO ITS USELESS AS YOU AREN'T GOING TO COOK ANYTHING
+// THIS IS A POOR HEADLESS VERSION, IM NO LONGER SUPPORTING A DEVELOPMENT OF ANY BOT RELATED TO FOOTSHOP. HERE'S A QUICK DEMONSTRATION OF REQUESTS SO YOU CAN CODE IT YOURSELF EVEN THO ITS USELESS AS YOU AREN'T GOING TO COOK ANYTHING
+
+
+## Post request to get a card_id_token which is needed to send a valid checkout post request.
+*Send POST to this URL: *https://api2.checkout.com/v2/tokens/card* with following header details.*
+```
+{
+			'Accept': 'application/json, text/javascript, */*; q=0.01',
+			'Referer': 'https://js.checkout.com/frames/?v=1.0.16&publicKey=pk_76be6fbf-2cbb-4b4a-bd3a-4865039ef187&localisation=EN-GB&theme=standard',
+			'Origin': 'https://js.checkout.com',
+			'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+			'AUTHORIZATION': 'pk_76be6fbf-2cbb-4b4a-bd3a-4865039ef187',
+			'Content-Type': 'application/json'
+}
+```
+*BODY part should be formatted in application/json format*
+```
+{
+	"number": "1488148814881488",
+	"expiryMonth": "14",
+	"expiryYear": "2088",
+	"cvv": "148",
+	"requestSource": "JS"
+}
+```
+
 
 ## Installation
 Tested on macOS & Ubuntu 18.04 Desktop
