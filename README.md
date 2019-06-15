@@ -3,6 +3,8 @@
 Automated raffle script made to easily enter raffles on releases.footshop.com
 If you don't have Go language installed follow [this](https://golang.org/doc/install) link.
 
+// THIS IS A POOR HEADLESS VERSION, IM NO LONGER SUPPORTING A DEVELOPMENT OF ANY BOT RELATED WITH FOOTSHOP. HERE'S A QUICK DEMONSTRATION OF REQUESTS SO YOU CAN CODE IT YOURSELF EVEN THO ITS USELESS AS YOU AREN'T GOING TO COOK ANYTHING
+
 ## Installation
 Tested on macOS & Ubuntu 18.04 Desktop
 
